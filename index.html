@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Frontend Mentor | Social proof section</title>
+  </head>
+  <body>
+    <main class="social-proof">
+      <h1 class="social-proof__title">10,000+ of our users love our products.</h1>
+      <p class="social-proof__text">We only provide great products combined with excellent customer service.See what our satisfied customers are saying about our services.</p>
+        <section class="social-proof__company-ratings company-ratings__section">
+          <div class="company-ratings__wrapper">
+            <div class="reviews-rating" aria-label="5 out of 5 stars rating by Reviews">
+              <div class="rating-star__wrapper">
+                <img src="./images/icon-star.svg" class="star-icon" 
+                aria-hidden="true" />
+                <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+              </div>
+              <p class="reviews-rating__text rating__text">Rated 5 Stars in Reviews</p>
+            </div>
+            <div class="report-guru-rating">
+              <div class="reviews-rating" aria-label="5 out of 5 stars rating by Report Guru">
+                <div class="rating-star__wrapper">
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" />
+                </div>
+                <p class="report-guru-rating__text rating__text">Rated 5 Stars in Report Guru</p>
+              </div>
+            </div>
+            <div class="besttech-rating">
+              <div class="reviews-rating" aria-label="5 out of 5 stars ratingf by BestTech">
+                <div class="rating-star__wrapper">
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" alt="" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" alt="" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" alt="" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" alt="" />
+                  <img src="./images/icon-star.svg" class="star-icon" aria-hidden="true" alt="" />
+                </div>
+                <p class="besttech-rating__text rating__text">Rated 5 Stars in BestTech</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="social-proof__user-reviews reviews__section">
+          <article class="user-review__card">
+            <img src="./images/image-colton.jpg" alt="Profile image of Colton Smith looking to the side" class="user__image" />
+            <p class="user__name">Colton Smith </p>
+            <span class="verified-buyer__badge">Verified Buyer</span>
+            <figure class="user__testimonial">
+              <blockquote>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"
+              </blockquote>
+            </figure>
+          </article>
+          <article class="user-review__card">
+            <img src="./images/image-irene.jpg" alt="Profile image of Irene Roberts looking at the camera" class="user__image" />
+            <p class="user__name">Irene Roberts</p>
+            <span class="verified-buyer__badge">Verified Buyer</span>
+            <figure class="user__testimonial">
+              <blockquote>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."
+              </blockquote>
+            </figure>
+          </article>
+          <article class="user-review__card">
+            <img src="./images/image-anne.jpg" alt="Profile image of Anne Wallace with pink flowers background" class="user__image" />
+            <p class="user__name">Anne Wallace</p>
+            <span class="verified-buyer__badge">Verified Buyer</span>
+            <figure class="user__testimonial">
+              <blockquote>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"
+              </blockquote>
+            </figure>
+          </article>
+        </section>
+    </main>
+  </body>
+</html>
